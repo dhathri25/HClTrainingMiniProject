@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="testFullFlowWithItem"/>
+          <include name="testFullJourney"/>
         </methods>
       </class> <!-- tests.E2ETest -->
     </classes>
