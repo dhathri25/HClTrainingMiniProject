@@ -1,0 +1,7 @@
+<suite name="Sauce Demo Suite">
+    <test name="End to End Test">
+        <classes>
+            <class name="tests.E2ETest"/>
+        </classes>
+    </test>
+</suite>

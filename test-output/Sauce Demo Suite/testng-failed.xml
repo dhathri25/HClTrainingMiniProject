@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sauce Demo Suite]">
+  <test thread-count="5" name="End to End Test(failed)">
+    <classes>
+      <class name="tests.E2ETest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testFullFlowWithItem"/>
+        </methods>
+      </class> <!-- tests.E2ETest -->
+    </classes>
+  </test> <!-- End to End Test(failed) -->
+</suite> <!-- Failed suite [Sauce Demo Suite] -->
